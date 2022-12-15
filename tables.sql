@@ -40,7 +40,6 @@ CREATE TABLE IF NOT EXISTS produtos(
 	tipo VARCHAR(30) NOT NULL,
 	preco FLOAT(8) NOT NULL,
 	pts_de_lealdade INTEGER NOT NULL
-	ON DELETE SET NULL 
 );
 
 -- Tabela produtos_pedidos
